@@ -27,7 +27,7 @@ dp = Dispatcher(bot, storage=storage)
 async def process_start(msg: types.Message):
     """On start"""
     await bot.send_message(msg.from_id, 'Привет! Я могу предсказать финансовые показатели на следующий месяц.'
-                           '\n\nПришли мне файл .excel')
+                           '\n\nПришли файл .excel')
     data['AWAIT_DATA'] = True
 
 
